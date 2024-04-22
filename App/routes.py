@@ -99,7 +99,7 @@ def getPromptForColdEmail(name , job_description, company ,contact):
 
     job description: {job_description}
 
-    email_type: {email_type}
+    company name: {company}
 
 """
     return prompt
