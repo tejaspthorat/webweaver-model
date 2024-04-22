@@ -89,7 +89,7 @@ def getPromptForGeneration(resumeJSON):
 """
     return prompt
 
-def getPromptForColdEmail(name , job_description, email_type,contact):
+def getPromptForColdEmail(name , job_description, company ,contact):
     prompt = f"""
     You are a smart AI assistant responsible to write proffessional emails based on the job descripion and email type.
 
